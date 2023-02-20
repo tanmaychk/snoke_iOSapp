@@ -169,7 +169,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content=" Reset Progress">
+                                        <fragment content=" Reset ">
                                             <attributes>
                                                 <font key="NSFont" size="16" name="Helvetica"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
