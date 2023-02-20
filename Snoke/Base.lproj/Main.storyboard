@@ -171,8 +171,15 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content=" Reset ">
                                             <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="16" name="Helvetica"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="Progress">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
