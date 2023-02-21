@@ -612,7 +612,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-cP-K02">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="xsY-cP-K02">
                                 <rect key="frame" x="163" y="276" width="178" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
@@ -736,20 +736,20 @@
         <image name="IOS_user" width="318" height="159"/>
         <image name="Image" width="346" height="186"/>
         <image name="Image 1" width="346" height="186"/>
-        <image name="bandage.fill" catalog="system" width="128" height="125"/>
-        <image name="banknote.fill" catalog="system" width="128" height="78"/>
-        <image name="bell.fill" catalog="system" width="123" height="128"/>
+        <image name="bandage.fill" catalog="system" width="32" height="32"/>
+        <image name="banknote.fill" catalog="system" width="32" height="32"/>
+        <image name="bell.fill" catalog="system" width="32" height="32"/>
         <image name="bookmyshow" width="306" height="165"/>
-        <image name="clock.fill" catalog="system" width="128" height="123"/>
-        <image name="dollarsign.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="flag.fill" catalog="system" width="128" height="121"/>
-        <image name="gift.fill" catalog="system" width="128" height="125"/>
+        <image name="clock.fill" catalog="system" width="32" height="32"/>
+        <image name="dollarsign.circle.fill" catalog="system" width="32" height="32"/>
+        <image name="flag.fill" catalog="system" width="32" height="32"/>
+        <image name="gift.fill" catalog="system" width="32" height="32"/>
         <image name="goibibo" width="310" height="163"/>
-        <image name="heart.fill" catalog="system" width="128" height="107"/>
-        <image name="house.fill" catalog="system" width="128" height="104"/>
-        <image name="minus" catalog="system" width="128" height="26"/>
-        <image name="suit.heart.fill" catalog="system" width="128" height="107"/>
-        <image name="waveform.path.ecg.rectangle.fill" catalog="system" width="128" height="93"/>
+        <image name="heart.fill" catalog="system" width="32" height="32"/>
+        <image name="house.fill" catalog="system" width="32" height="32"/>
+        <image name="minus" catalog="system" width="32" height="32"/>
+        <image name="suit.heart.fill" catalog="system" width="32" height="32"/>
+        <image name="waveform.path.ecg.rectangle.fill" catalog="system" width="32" height="32"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
