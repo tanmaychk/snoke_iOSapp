@@ -17,6 +17,8 @@
 		ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D429B6F4A50052132D /* HomeViewController.swift */; };
 		ACF5A6D729B7014F0052132D /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D629B7014F0052132D /* RewardViewController.swift */; };
 		ACF5A6D929B705240052132D /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D829B705240052132D /* HelpViewController.swift */; };
+		ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */; };
+		ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6E429B9AD7A0052132D /* StatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		ACF5A6D429B6F4A50052132D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ACF5A6D629B7014F0052132D /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 		ACF5A6D829B705240052132D /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContactsViewController.swift; sourceTree = "<group>"; };
+		ACF5A6E429B9AD7A0052132D /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,12 @@
 				ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */,
 				ACD7CB1129A0D6130092778A /* ViewController.swift */,
 				ACD7CB1329A0D6130092778A /* Main.storyboard */,
+				ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */,
 				ACF5A6D829B705240052132D /* HelpViewController.swift */,
 				ACF5A6D629B7014F0052132D /* RewardViewController.swift */,
 				ACF5A6D429B6F4A50052132D /* HomeViewController.swift */,
 				ACF5A6D029B6EFF00052132D /* UserDataModel.swift */,
+				ACF5A6E429B9AD7A0052132D /* StatsViewController.swift */,
 				ACD7CB1629A0D6140092778A /* Assets.xcassets */,
 				ACD7CB1829A0D6140092778A /* LaunchScreen.storyboard */,
 				ACD7CB1B29A0D6140092778A /* Info.plist */,
@@ -154,8 +160,10 @@
 				ACF5A6D129B6EFF00052132D /* UserDataModel.swift in Sources */,
 				ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */,
 				ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */,
+				ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */,
 				ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */,
 				ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */,
+				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,
 				ACF5A6D729B7014F0052132D /* RewardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
