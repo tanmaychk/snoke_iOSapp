@@ -13,6 +13,13 @@ class RewardViewController: UIViewController {
     
     @IBOutlet var moneysavedrewards: UILabel!
     
+    @IBOutlet var segment2ControlClick: UISegmentedControl!
+    
+    @IBOutlet var personalgoalsview: UIView!
+    
+    @IBOutlet var couponsview: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +28,18 @@ class RewardViewController: UIViewController {
         moneysavedrewards.text=reward[0].money
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func segment2ControlCLick(_ sender: UISegmentedControl){
+        switch segment2ControlClick.selectedSegmentIndex{
+        case 0:
+            personalgoalsview.isHidden = false;
+            couponsview.isHidden = true;
+            segment2ControlClick.selectedSegmentTintColor = .red
+        case 1:
+            couponsview.isHidden = false;
+            personalgoalsview.isHidden = true;
+            segment2ControlClick.selectedSegmentTintColor = .yellow
+        default:
+            break
+        }
     }
-    */
-
 }

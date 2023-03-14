@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */; };
 		ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB0D29A0D6130092778A /* AppDelegate.swift */; };
 		ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */; };
 		ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB1129A0D6130092778A /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVideosViewController.swift; sourceTree = "<group>"; };
 		ACD7CB0A29A0D6130092778A /* Snoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD7CB0D29A0D6130092778A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */,
 				ACD7CB1129A0D6130092778A /* ViewController.swift */,
 				ACD7CB1329A0D6130092778A /* Main.storyboard */,
+				AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */,
 				ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */,
 				ACF5A6D829B705240052132D /* HelpViewController.swift */,
 				ACF5A6D629B7014F0052132D /* RewardViewController.swift */,
@@ -161,6 +164,7 @@
 				ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */,
 				ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */,
 				ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */,
+				AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */,
 				ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */,
 				ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */,
 				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,
