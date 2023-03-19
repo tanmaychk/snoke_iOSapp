@@ -63,15 +63,6 @@ struct ExerciseSlide{
     let description: String
     let image: UIImage
 }
-//var apiKey = "AIzaSyABT75nFUUxeqsvVGdKNwa2jeKtRvE5d6U" 
-//
-////PLVirhGJQqidpY7n9PJ57FwaW1iogJsFZH = Photographer
-////PLVirhGJQqidqjbXhirvXnLZ5aLzpHc0lX = workout
-////This array holds all the playlist ID's
-//var playListArray = ["PLVirhGJQqidpY7n9PJ57FwaW1iogJsFZH","PLVirhGJQqidqjbXhirvXnLZ5aLzpHc0lX"]
-//
-////An array to store the videos in your playlist
-//var videosArray: Array<Dictionary<NSObject, AnyObject>> = []
 
 
 struct Model{
