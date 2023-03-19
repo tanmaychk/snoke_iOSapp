@@ -31,12 +31,12 @@ class RewardViewController: UIViewController {
     @IBAction func segment2ControlCLick(_ sender: UISegmentedControl){
         switch segment2ControlClick.selectedSegmentIndex{
         case 0:
-            personalgoalsview.isHidden = false;
-            couponsview.isHidden = true;
+            personalgoalsview.isHidden = true;
+            couponsview.isHidden = false;
             segment2ControlClick.selectedSegmentTintColor = .red
         case 1:
-            couponsview.isHidden = false;
-            personalgoalsview.isHidden = true;
+            couponsview.isHidden = true;
+            personalgoalsview.isHidden = false;
             segment2ControlClick.selectedSegmentTintColor = .yellow
         default:
             break

@@ -9,14 +9,12 @@ import UIKit
 import Charts
 class StatsViewController: UIViewController {
 
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        createChart()
-        // Do any additional setup after loading the view.
     }
     
-//    private func createChart(){
-//        let barChart = chart
-//    }
-
+    
 }

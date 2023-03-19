@@ -17,20 +17,19 @@ class HelpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     
     @IBAction func segmentControlCLick(_ sender: UISegmentedControl){
         switch segmentationButton.selectedSegmentIndex{
         case 0:
-            view1.isHidden = false;
             view2.isHidden = true;
-            segmentationButton.selectedSegmentTintColor = .red
+            view1.isHidden = false;
+            segmentationButton.selectedSegmentTintColor = UIColor.systemGreen
         case 1:
-            view2.isHidden = false;
             view1.isHidden = true;
-            segmentationButton.selectedSegmentTintColor = .yellow
+            view2.isHidden = false;
+            segmentationButton.selectedSegmentTintColor = UIColor.systemGreen
         default:
             break
         }
