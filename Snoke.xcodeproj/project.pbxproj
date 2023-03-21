@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */; };
 		AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */; };
 		AC27291329C196CA002B3891 /* breathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27291229C196CA002B3891 /* breathingViewController.swift */; };
 		AC27292729C6D42D002B3891 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27292529C6D42D002B3891 /* CollectionTableViewCell.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVideosViewController.swift; sourceTree = "<group>"; };
 		AC27291229C196CA002B3891 /* breathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingViewController.swift; sourceTree = "<group>"; };
 		AC27292529C6D42D002B3891 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A314B8C329CA217B00097588 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
 		AC27291129C0F011002B3891 /* Help */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 				ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */,
 				ACD7CB1129A0D6130092778A /* ViewController.swift */,
 				ACD7CB1329A0D6130092778A /* Main.storyboard */,
+				A314B8C329CA217B00097588 /* OnBoarding */,
 				AC27291B29C2FB38002B3891 /* Home */,
 				AC27291129C0F011002B3891 /* Help */,
 				AC27291729C2FA82002B3891 /* Rewards */,
@@ -249,6 +260,7 @@
 				ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */,
 				AC27292729C6D42D002B3891 /* CollectionTableViewCell.swift in Sources */,
 				AC27291329C196CA002B3891 /* breathingViewController.swift in Sources */,
+				A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */,
 				ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */,
 				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,
 				AC27292B29C6D457002B3891 /* MyCollectionViewCell.swift in Sources */,

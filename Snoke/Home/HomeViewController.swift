@@ -10,7 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet var progress: UIProgressView!
-    @IBOutlet var resetbutton: UIButton!
+    
     @IBOutlet var nametag: UILabel!
     
     @IBOutlet var progressText: UILabel!

@@ -72,3 +72,14 @@ struct Model{
         self.imageName = imageName
     }
 }
+
+
+struct onboarding{
+    let name:String?
+    let age:String?
+    var freq:String?
+    let price:String?
+    var cigcount:String?
+}
+
+var userdata = [onboarding]()
