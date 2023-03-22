@@ -44,6 +44,12 @@ struct ValuePerCategory {
 }
 
 
+let today = Date()
+let calendar = Calendar.current
+let hour = calendar.component(.hour, from: today)
+let minute = calendar.component(.minute, from: today)
+let second = calendar.component(.second, from: today)
+
 let statsdata: [ValuePerCategory] = [
     .init(category: "A", value: 5),
     .init(category: "B", value: 9),
@@ -51,7 +57,7 @@ let statsdata: [ValuePerCategory] = [
 ]
 
 
-let users = [Users(id: UUID(), name: "Akshat", age: 21, progress: 45, moneySaved: 56),Users(id: UUID(), name: "Tanmay", age: 20, progress: 78, moneySaved: 90)]
+//let users = [Users(id: UUID(), name: "Akshat", age: 21, progress: 45, moneySaved: 56)]
 
 
 let reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
@@ -75,7 +81,7 @@ struct Model{
 
 
 struct onboarding{
-    let name:String?
+    var userName:String?
     let age:String?
     var freq:String?
     let price:String?
@@ -83,3 +89,4 @@ struct onboarding{
 }
 
 var userdata = [onboarding]()
+

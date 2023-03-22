@@ -33,11 +33,11 @@ class RewardViewController: UIViewController {
         case 0:
             personalgoalsview.isHidden = true;
             couponsview.isHidden = false;
-            segment2ControlClick.selectedSegmentTintColor = .red
+            segment2ControlClick.selectedSegmentTintColor = UIColor.systemGreen
         case 1:
             couponsview.isHidden = true;
             personalgoalsview.isHidden = false;
-            segment2ControlClick.selectedSegmentTintColor = .yellow
+            segment2ControlClick.selectedSegmentTintColor = UIColor.systemGreen
         default:
             break
         }
