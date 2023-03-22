@@ -83,7 +83,7 @@ struct Model{
 struct onboarding{
     var userName:String?
     let age:String?
-    var freq:String?
+    var year:String?
     let price:String?
     var cigcount:String?
 }

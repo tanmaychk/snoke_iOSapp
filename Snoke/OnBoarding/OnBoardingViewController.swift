@@ -16,7 +16,7 @@ class OnBoardingViewController: UIViewController {
         let userfreq = SmokeFrequency.text
         let cigprice = PriceOfCig.text
         let cigno = CigNumber.text
-        userdata.append(onboarding(userName: username, age: userage, freq: userfreq, price: cigprice, cigcount: cigno))
+        userdata.append(onboarding(userName: username, age: userage, year: userfreq, price: cigprice, cigcount: cigno))
         let controller = storyboard?.instantiateViewController(withIdentifier: "StartingScreen") as! UITabBarController
         
         controller.modalPresentationStyle = .fullScreen
