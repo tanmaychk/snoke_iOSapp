@@ -60,7 +60,7 @@ class HomeViewController: UIViewController {
         
         dayReset.text = "Day " + String(1)
         
-        NicotineIntake.text = String((Float(cig ?? 1) * Float(year ?? 1) * 9.4) ) + "mg"
+        NicotineIntake.text = String(Int(ceil((Float(cig ?? 1) * Float(year ?? 1) * 9.4)))) + "mg"
         
         LifeGained.text = String(Int(ceil((Float(year ?? 1) * Float(cig ?? 1) * 0.15)/20))) + " Year"
         
