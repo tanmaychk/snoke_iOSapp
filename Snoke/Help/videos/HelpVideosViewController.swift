@@ -9,11 +9,11 @@ import UIKit
 import WebKit
 import SafariServices
 
-class HelpVideosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, SFSafariViewControllerDelegate{
+class HelpVideosViewController: UIViewController, SFSafariViewControllerDelegate{
     
     var models = [Model]()
     
-    @IBOutlet var table: UITableView!
+    
     @IBOutlet var webview: WKWebView!
     
     
@@ -26,41 +26,6 @@ class HelpVideosViewController: UIViewController, UITableViewDelegate, UITableVi
         models.append(Model(imageName: "exercise4"))
         models.append(Model(imageName: "exercise5"))
         
-//        table.register(CollectionTableViewCell.nib(), forCellReuseIdentifier: CollectionTableViewCell.identifier)
-//        table.delegate = self
-//        table.dataSource = self
-        
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = table.dequeueReusableCell(withIdentifier: CollectionTableViewCell.identifier, for: indexPath) as! CollectionTableViewCell
-        cell.configure(with: models)
-        
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200.0
-        
-    }
-    
-//    func collectionView(_ collectionView: UICollectionView,
-//                        didSelectItemAt indexPath: IndexPath) {
-//        print("Cell \(indexPath.row + 1) clicked")
-//        var url = URL(string:videos[indexPath.row])
-//        let req = URLRequest(url: url!)
-//        webview.load(req)
-//        
-//    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Cell \(indexPath.row + 1) clicked")
-        let url = URL(string:videos[indexPath.row])
-        let req = URLRequest(url: url!)
-        webview.load(req)
     }
     
     
