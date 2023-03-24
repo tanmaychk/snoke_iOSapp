@@ -12,6 +12,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var myImageView:UIImageView!
     
+    @IBOutlet var imagebutton: UIButton!
     static let identifier = "MyCollectionViewCell"
     
     static func nib() -> UINib{
@@ -27,6 +28,7 @@ class MyCollectionViewCell: UICollectionViewCell {
         self.myImageView.image = UIImage(named: model.imageName)
         self.myImageView.contentMode = .scaleAspectFill
     }
+    
     
     
 }

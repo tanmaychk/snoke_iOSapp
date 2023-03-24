@@ -62,7 +62,7 @@ let statsdata: [ValuePerCategory] = [
 
 let reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
 
-
+let videos = ["https://www.youtube.com/watch?v=fFv1r5-2Ve0","https://www.youtube.com/watch?v=s2NQhpFGIOg","https://www.youtube.com/watch?v=IODxDxX7oi4","https://www.youtube.com/watch?v=AzV3EA-1-yM","https://www.youtube.com/watch?v=QRZcZgSgSHI","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
 
 struct ExerciseSlide{
     let title: String
