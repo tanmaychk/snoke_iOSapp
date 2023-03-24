@@ -758,7 +758,7 @@
                                 <rect key="frame" x="271" y="79" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="Awd-Ch-zPr">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Awd-Ch-zPr">
                                 <rect key="frame" x="49" y="191" width="297" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
@@ -772,14 +772,14 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SSn-cU-0hs">
-                                <rect key="frame" x="22" y="239" width="341" height="538"/>
+                                <rect key="frame" x="19" y="236" width="340" height="538"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="wv9-TO-Yuz" kind="embed" id="NUs-2V-gny"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idJ-DA-ajp">
-                                <rect key="frame" x="22" y="239" width="345" height="538"/>
+                                <rect key="frame" x="19" y="236" width="344" height="538"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="5tk-UM-NPy" kind="embed" id="CyD-Fh-Kiv"/>
@@ -805,7 +805,7 @@
             <objects>
                 <viewController id="wv9-TO-Yuz" customClass="HelpContactsViewController" customModule="Snoke" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2uW-xi-GBi">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="538"/>
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSv-yk-h8b">
@@ -875,37 +875,208 @@
             <objects>
                 <viewController id="5tk-UM-NPy" customClass="HelpVideosViewController" customModule="Snoke" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oUu-LN-xhp">
-                        <rect key="frame" x="0.0" y="0.0" width="345" height="538"/>
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yy4-wS-3hE">
-                                <rect key="frame" x="0.0" y="59" width="345" height="479"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKO-4z-tui">
+                                <rect key="frame" x="0.0" y="0.0" width="344" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJa-g1-Hvo">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ci2-vR-Nh8">
+                                                <rect key="frame" x="13" y="44" width="319" height="157"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breathWork" translatesAutoresizingMaskIntoConstraints="NO" id="TB0-4D-cMb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cU5-Xi-Eij">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="breathwork:" destination="5tk-UM-NPy" eventType="touchUpInside" id="Sdz-cE-c7W"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="raO-DU-3js">
+                                                <rect key="frame" x="13" y="221" width="319" height="163"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise5" translatesAutoresizingMaskIntoConstraints="NO" id="AcS-IL-WlG">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="163"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUa-Wc-jRJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="163"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="exercises:" destination="5tk-UM-NPy" eventType="touchUpInside" id="I9V-4W-pKb"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iIG-DV-JPZ">
+                                                <rect key="frame" x="13" y="407" width="319" height="157"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PushUps" translatesAutoresizingMaskIntoConstraints="NO" id="HXV-Os-wcz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="164"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tF7-fY-gyo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="164"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="pushups:" destination="5tk-UM-NPy" eventType="touchUpInside" id="zwx-Zo-eNX"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sf6-01-fMD">
+                                                <rect key="frame" x="13" y="598" width="319" height="157"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise" translatesAutoresizingMaskIntoConstraints="NO" id="SDI-gC-t2V">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAN-yu-hs2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="workout:" destination="5tk-UM-NPy" eventType="touchUpInside" id="74B-pl-m0b"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KhQ-2p-6N5">
+                                                <rect key="frame" x="13" y="786" width="319" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise2" translatesAutoresizingMaskIntoConstraints="NO" id="53f-bX-j80">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="170"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qnv-d4-prX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="319" height="170"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="zumba:" destination="5tk-UM-NPy" eventType="touchUpInside" id="G0n-1A-zvo"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lbi-l7-zOu">
+                                                <rect key="frame" x="13" y="996" width="319" height="169"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exercise3" translatesAutoresizingMaskIntoConstraints="NO" id="YPL-jR-lVN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="311" height="161"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCp-tV-qrq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="311" height="161"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain"/>
+                                                        <connections>
+                                                            <action selector="running:" destination="5tk-UM-NPy" eventType="touchUpInside" id="dcz-M0-aKz"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="NSj-In-9j9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RJa-g1-Hvo" firstAttribute="top" secondItem="gKO-4z-tui" secondAttribute="top" id="Fev-VJ-tNZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="RJa-g1-Hvo" secondAttribute="trailing" id="Lt2-Xb-3CL"/>
+                                    <constraint firstItem="RJa-g1-Hvo" firstAttribute="leading" secondItem="gKO-4z-tui" secondAttribute="leading" id="aaa-TA-H1y"/>
+                                    <constraint firstAttribute="height" constant="1200" id="o39-7Z-Zuu"/>
+                                    <constraint firstAttribute="bottom" secondItem="RJa-g1-Hvo" secondAttribute="bottom" id="t2h-gf-4Og"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="obH-QZ-g6N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="obH-QZ-g6N" firstAttribute="bottom" secondItem="yy4-wS-3hE" secondAttribute="bottom" id="EB0-Ih-ckS"/>
-                            <constraint firstItem="obH-QZ-g6N" firstAttribute="trailing" secondItem="yy4-wS-3hE" secondAttribute="trailing" id="Hwn-js-YoI"/>
-                            <constraint firstItem="yy4-wS-3hE" firstAttribute="top" secondItem="obH-QZ-g6N" secondAttribute="top" id="NPk-T1-yz3"/>
-                            <constraint firstItem="yy4-wS-3hE" firstAttribute="leading" secondItem="obH-QZ-g6N" secondAttribute="leading" id="wYg-Vy-3MV"/>
+                            <constraint firstItem="RJa-g1-Hvo" firstAttribute="width" secondItem="oUu-LN-xhp" secondAttribute="width" id="6eK-Y5-IAp"/>
+                            <constraint firstItem="gKO-4z-tui" firstAttribute="trailing" secondItem="obH-QZ-g6N" secondAttribute="trailing" id="Jco-PO-1TI"/>
+                            <constraint firstItem="gKO-4z-tui" firstAttribute="top" secondItem="oUu-LN-xhp" secondAttribute="top" id="V37-S5-l8W"/>
+                            <constraint firstAttribute="bottom" secondItem="gKO-4z-tui" secondAttribute="bottom" id="fHu-8p-RBm"/>
+                            <constraint firstItem="gKO-4z-tui" firstAttribute="leading" secondItem="obH-QZ-g6N" secondAttribute="leading" id="uMd-DX-HyP"/>
                         </constraints>
                     </view>
+                    <size key="freeformSize" width="344" height="1200"/>
                     <connections>
                         <outlet property="table" destination="yy4-wS-3hE" id="gvB-C2-a3B"/>
+                        <outlet property="webview" destination="XAK-WP-DSx" id="W4X-yk-6aZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lR-jw-yGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="276.3358778625954" y="-444.0140845070423"/>
+            <point key="canvasLocation" x="-232.06106870229007" y="-211.26760563380282"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VGj-15-QXM">
+            <objects>
+                <viewController id="Wme-nn-Kkv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wfX-R2-kni">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XAK-WP-DSx">
+                                <rect key="frame" x="24" y="466" width="344" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yy4-wS-3hE">
+                                <rect key="frame" x="24" y="125" width="344" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yu1-RT-zBr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kD8-AA-c7p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="498" y="-986"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JYQ-Ze-jBv">
             <objects>
                 <viewController id="zWQ-Tj-5eT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="39z-6H-kxu">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="438"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="439"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uV1-GO-Oge">
@@ -1067,7 +1238,7 @@
             <objects>
                 <viewController id="DHr-bQ-VUX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iVb-Bx-Ntf">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="438"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="439"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeE-Y3-Kah">
@@ -1192,14 +1363,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNF-yV-3pN">
-                                <rect key="frame" x="18" y="289" width="344" height="438"/>
+                                <rect key="frame" x="15" y="287" width="343" height="439"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="DHr-bQ-VUX" kind="embed" id="xO0-ez-0Gz"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9w-4J-8pz">
-                                <rect key="frame" x="18" y="289" width="344" height="438"/>
+                                <rect key="frame" x="15" y="287" width="343" height="439"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="zWQ-Tj-5eT" kind="embed" id="qrG-w7-y80"/>
@@ -1289,15 +1460,21 @@
     <resources>
         <image name="IOS_user" width="318" height="159"/>
         <image name="Image 2" width="379" height="388"/>
+        <image name="PushUps" width="1200" height="800"/>
         <image name="airpods" width="225" height="225"/>
         <image name="arrow.down.circle.fill" catalog="system" width="128" height="123"/>
         <image name="bandage.fill" catalog="system" width="128" height="125"/>
         <image name="banknote.fill" catalog="system" width="128" height="78"/>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="bookmyshow" width="306" height="165"/>
+        <image name="breathWork" width="1200" height="800"/>
         <image name="circlebadge.fill" catalog="system" width="128" height="122"/>
         <image name="clock.fill" catalog="system" width="128" height="123"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="exercise" width="277" height="182"/>
+        <image name="exercise2" width="275" height="183"/>
+        <image name="exercise3" width="300" height="168"/>
+        <image name="exercise5" width="275" height="183"/>
         <image name="flag.fill" catalog="system" width="128" height="121"/>
         <image name="gift.fill" catalog="system" width="128" height="125"/>
         <image name="goibibo" width="310" height="163"/>
