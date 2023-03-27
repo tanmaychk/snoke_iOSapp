@@ -19,7 +19,6 @@ class RewardViewController: UIViewController {
     
     @IBOutlet var couponsview: UIView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,11 +32,11 @@ class RewardViewController: UIViewController {
         case 0:
             personalgoalsview.isHidden = true;
             couponsview.isHidden = false;
-            segment2ControlClick.selectedSegmentTintColor = UIColor.systemGreen
+            segment2ControlClick.selectedSegmentTintColor = UIColor.init(red: 245/255, green: 223/255, blue: 183/255, alpha: 1)
         case 1:
             couponsview.isHidden = true;
             personalgoalsview.isHidden = false;
-            segment2ControlClick.selectedSegmentTintColor = UIColor.systemGreen
+            segment2ControlClick.selectedSegmentTintColor = UIColor.init(red: 245/255, green: 223/255, blue: 183/255, alpha: 1)
         default:
             break
         }

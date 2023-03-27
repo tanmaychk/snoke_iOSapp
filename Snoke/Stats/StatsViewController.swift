@@ -7,14 +7,13 @@
 
 import UIKit
 import Charts
+
 class StatsViewController: UIViewController {
 
-
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
-    
+
 }

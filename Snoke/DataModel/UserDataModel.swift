@@ -57,12 +57,23 @@ let statsdata: [ValuePerCategory] = [
 ]
 
 
+struct goals{
+    var ProductName:String
+    var price:String
+    var image:UIImage
+}
+
+
+var goalsarray: [goals] = []
 //let users = [Users(id: UUID(), name: "Akshat", age: 21, progress: 45, moneySaved: 56)]
 
 
-let reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
+var reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
 
-let videos = ["https://www.youtube.com/watch?v=fFv1r5-2Ve0","https://www.youtube.com/watch?v=s2NQhpFGIOg","https://www.youtube.com/watch?v=IODxDxX7oi4","https://www.youtube.com/watch?v=AzV3EA-1-yM","https://www.youtube.com/watch?v=QRZcZgSgSHI","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
+var videos = ["https://www.youtube.com/results?search_query=yoga","https://www.youtube.com/results?search_query=workout","https://www.youtube.com/results?search_query=zumba","https://www.youtube.com/results?search_query=breath+exercise","https://www.youtube.com/results?search_query=cardio","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
+
+var smokingSuggestion = ["https://www.cdc.gov/tobacco/data_statistics/fact_sheets/health_effects/effects_cig_smoking/index.htm#:~:text=Smoking%20causes%20about%2090%25%20(or,of%20all%20lung%20cancer%20deaths.&text=More%20women%20die%20from%20lung%20cancer%20each%20year%20than%20from%20breast%20cancer.&text=Smoking%20causes%20about%2080%25%20(or,obstructive%20pulmonary%20disease%20(COPD).&text=Cigarette%20smoking%20increases%20risk%20for,causes%20in%20men%20and%20women."]
+
 
 struct ExerciseSlide{
     let title: String

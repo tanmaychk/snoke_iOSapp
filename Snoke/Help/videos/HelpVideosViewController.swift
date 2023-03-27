@@ -65,10 +65,4 @@ class HelpVideosViewController: UIViewController, SFSafariViewControllerDelegate
                 self.present(safariViewController, animated: true, completion: nil)
     }
     
-    @IBAction func running(_ sender: Any) {
-        guard let url = URL(string: videos[5])
-                    else {return}
-                let safariViewController = SFSafariViewController (url: url)
-                self.present(safariViewController, animated: true, completion: nil)
-    }
 }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class HomeViewController: UIViewController {
 
@@ -28,6 +29,16 @@ class HomeViewController: UIViewController {
     @IBOutlet var moneysavedhome: UILabel!
     
     @IBOutlet var flagdayslabel: UILabel!
+    
+    
+    
+    class dateforcalender{
+        let instance = dateforcalender()
+        private init(){
+            
+        }
+        var date = Date()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,9 +87,15 @@ class HomeViewController: UIViewController {
         motLabel.text="Let's Restart, " + String(24 - hour) + " more hours"
         flagdayslabel.text="0d 0h 0m"
         moneysavedhome.text="$ 0"
+        progress.progressTintColor = UIColor.red
     }
     
-    
+    @IBAction func suggest(_ sender: Any) {
+        guard let url = URL(string: smokingSuggestion[0])
+                    else {return}
+                let safariViewController = SFSafariViewController (url: url)
+                self.present(safariViewController, animated: true, completion: nil)
+    }
 
     
 }
