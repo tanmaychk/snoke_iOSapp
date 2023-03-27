@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import ColorSync
+
 class HelpViewController: UIViewController {
     
     @IBOutlet var view1: UIView!
@@ -25,11 +27,11 @@ class HelpViewController: UIViewController {
         case 0:
             view2.isHidden = true;
             view1.isHidden = false;
-            segmentationButton.selectedSegmentTintColor = UIColor.systemGreen
+            segmentationButton.selectedSegmentTintColor = UIColor.init(red: 245/255, green: 223/255, blue: 183/255, alpha: 1)
         case 1:
             view1.isHidden = true;
             view2.isHidden = false;
-            segmentationButton.selectedSegmentTintColor = UIColor.systemGreen
+            segmentationButton.selectedSegmentTintColor = UIColor.init(red: 245/255, green: 223/255, blue: 183/255, alpha: 1)
         default:
             break
         }
