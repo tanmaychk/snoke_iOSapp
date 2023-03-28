@@ -12,12 +12,13 @@ class PersonalGoalsViewController: UIViewController {
     @IBOutlet var PersonalGoalsview: UIView!
     
     @IBOutlet var scrollview: UIScrollView!
+    
+    
+    @IBOutlet weak var refreshbutton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    
     @IBAction func refreshbutton(_ sender: UIButton) {
         refresh(scrollview)
     }
