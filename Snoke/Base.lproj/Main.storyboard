@@ -537,6 +537,7 @@
                         <outlet property="LifeGained" destination="3Il-RW-4Uo" id="Uxb-Kg-84K"/>
                         <outlet property="NicotineIntake" destination="f7S-mZ-1e4" id="qJX-3d-0Da"/>
                         <outlet property="Risk" destination="mCq-HB-A3v" id="3uM-gq-VdW"/>
+                        <outlet property="cancerRisk" destination="c8L-Wa-YPm" id="Zga-48-1TR"/>
                         <outlet property="dayReset" destination="wU2-PC-3wf" id="qga-IG-ehI"/>
                         <outlet property="flagdayslabel" destination="jrn-bp-6vx" id="tdp-Xp-jNj"/>
                         <outlet property="moneysavedhome" destination="WXP-lI-3mP" id="yCL-sg-xSz"/>
@@ -1169,7 +1170,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmyshow" translatesAutoresizingMaskIntoConstraints="NO" id="2vz-S4-y2d">
-                                                <rect key="frame" x="6" y="0.0" width="321" height="183"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="183"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e6B-53-Msi">
@@ -1271,7 +1272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3PI-nf-IZ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1450" y="-444"/>
+            <point key="canvasLocation" x="1448.854961832061" y="-444.0140845070423"/>
         </scene>
         <!--Reward View Controller-->
         <scene sceneID="1eC-Vk-rtQ">

@@ -44,11 +44,11 @@ struct ValuePerCategory {
 }
 
 
-let today = Date()
-let calendar = Calendar.current
-let hour = calendar.component(.hour, from: today)
-let minute = calendar.component(.minute, from: today)
-let second = calendar.component(.second, from: today)
+var today = Date()
+var calendar = Calendar.current
+var hour = calendar.component(.hour, from: today)
+var minute = calendar.component(.minute, from: today)
+var second = calendar.component(.second, from: today)
 
 let statsdata: [ValuePerCategory] = [
     .init(category: "A", value: 5),
