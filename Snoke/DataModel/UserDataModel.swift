@@ -70,7 +70,7 @@ var goalsarray: [goals] = []
 
 var reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
 
-var videos = ["https://www.youtube.com/results?search_query=yoga","https://www.youtube.com/results?search_query=workout","https://www.youtube.com/results?search_query=zumba","https://www.youtube.com/results?search_query=breath+exercise","https://www.youtube.com/results?search_query=cardio","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
+var videos = ["https://www.youtube.com/playlist?list=PLsGnys9JD3qnvjQARK99NMKTTTSm3iL6k","https://www.youtube.com/playlist?list=PLsGnys9JD3qkUghU5YQGEfMvQExiNJrnR","https://www.youtube.com/results?search_query=zumba","https://www.youtube.com/playlist?list=PLsGnys9JD3qlI8973lOSIrxYkKvKMDAG1","https://www.youtube.com/playlist?list=PLsGnys9JD3qkwijHI-ekxyno2zjAFElOO","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
 
 var smokingSuggestion = ["https://www.cdc.gov/tobacco/data_statistics/fact_sheets/health_effects/effects_cig_smoking/index.htm#:~:text=Smoking%20causes%20about%2090%25%20(or,of%20all%20lung%20cancer%20deaths.&text=More%20women%20die%20from%20lung%20cancer%20each%20year%20than%20from%20breast%20cancer.&text=Smoking%20causes%20about%2080%25%20(or,obstructive%20pulmonary%20disease%20(COPD).&text=Cigarette%20smoking%20increases%20risk%20for,causes%20in%20men%20and%20women."]
 

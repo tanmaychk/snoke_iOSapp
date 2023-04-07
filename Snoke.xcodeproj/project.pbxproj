@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */; };
 		AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */; };
-		AC27291329C196CA002B3891 /* breathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27291229C196CA002B3891 /* breathingViewController.swift */; };
 		AC2A3A1429CEEB10005289C6 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1329CEEB10005289C6 /* calenderViewController.swift */; };
 		AC2A3A1629D155A4005289C6 /* AddNewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1529D155A4005289C6 /* AddNewGoalViewController.swift */; };
 		AC2A3A1829D1B01B005289C6 /* PersonalGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1729D1B01B005289C6 /* PersonalGoalsViewController.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVideosViewController.swift; sourceTree = "<group>"; };
-		AC27291229C196CA002B3891 /* breathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingViewController.swift; sourceTree = "<group>"; };
 		AC2A3A1329CEEB10005289C6 /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
 		AC2A3A1529D155A4005289C6 /* AddNewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoalViewController.swift; sourceTree = "<group>"; };
 		AC2A3A1729D1B01B005289C6 /* PersonalGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGoalsViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				AC27292029C6D32D002B3891 /* videos */,
 				ACF5A6D829B705240052132D /* HelpViewController.swift */,
 				ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */,
-				AC27291229C196CA002B3891 /* breathingViewController.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -240,7 +237,6 @@
 				ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */,
 				AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */,
 				ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */,
-				AC27291329C196CA002B3891 /* breathingViewController.swift in Sources */,
 				A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */,
 				ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */,
 				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,

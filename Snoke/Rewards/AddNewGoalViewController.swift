@@ -52,12 +52,7 @@ class AddNewGoalViewController: UIViewController,UIImagePickerControllerDelegate
     @IBAction func AddGoal(_ sender: Any) {
         goalsarray.append(goals(ProductName: ProductName.text ?? "Product" , price: ProductPrice.text! , image: (imageview.image ?? UIImage(named: "jordan"))!))
         
-        let view = storyboard?.instantiateViewController(withIdentifier: "StartingScreen") as! UITabBarController
-        
-        view.modalPresentationStyle = .fullScreen
-        view.modalTransitionStyle = .coverVertical
-
-        present(view,animated: true,completion: nil)
+        dismiss(animated: true, completion: nil)
         
     }
 }
