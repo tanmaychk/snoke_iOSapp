@@ -41,149 +41,103 @@
                                 <rect key="frame" x="123" y="528" width="291" height="388"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1qc-KP-h7O">
-                                <rect key="frame" x="60" y="693" width="273" height="34.333333333333371"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NhS-Kt-yWB">
+                                <rect key="frame" x="47" y="317" width="299.66666666666669" height="250"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-8Q-O1N">
-                                        <rect key="frame" x="0.0" y="0.0" width="273" height="34.333333333333336"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Submit"/>
-                                        <connections>
-                                            <action selector="Submit:" destination="GOJ-uz-Md0" eventType="touchUpInside" id="h0q-sh-Dm0"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="qKp-F3-5fv">
-                                <rect key="frame" x="59" y="101.99999999999997" width="309.66666666666669" height="484.33333333333326"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VvL-J1-XVj">
-                                        <rect key="frame" x="0.0" y="0.0" width="289.66666666666669" height="82"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SNOKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP7-D8-ZfV">
-                                                <rect key="frame" x="0.0" y="0.0" width="289.66666666666669" height="82"/>
-                                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="67"/>
-                                                <color key="textColor" red="0.1843137443" green="0.42745098469999998" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gOT-fI-FJx">
-                                        <rect key="frame" x="0.0" y="149" width="309.66666666666669" height="26.333333333333343"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get to know you better" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-SZ-DTD">
-                                                <rect key="frame" x="0.0" y="0.0" width="309.66666666666669" height="26.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <color key="textColor" systemColor="systemGray2Color"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="X9P-QO-pGW">
-                                        <rect key="frame" x="0.0" y="242.33333333333331" width="299.66666666666669" height="242"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uaA-h6-XPq">
-                                                <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="34"/>
-                                                <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IwG-3r-kqx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="34"/>
-                                                        <color key="textColor" red="0.1843137443" green="0.42745098469999998" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" smartDashesType="no"/>
-                                                    </textField>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jWh-Wr-MuJ">
-                                                <rect key="frame" x="0.0" y="45" width="299.66666666666669" height="41"/>
-                                                <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Whats your age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ct8-EY-la2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="41"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="41" id="lJ0-oe-fUT"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
-                                                    </textField>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="Ct8-EY-la2" secondAttribute="trailing" id="5ve-Em-GSa"/>
-                                                    <constraint firstItem="Ct8-EY-la2" firstAttribute="leading" secondItem="jWh-Wr-MuJ" secondAttribute="leading" id="KZ5-t9-bkb"/>
-                                                </constraints>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7s4-YE-WL0">
-                                                <rect key="frame" x="0.0" y="97" width="299.66666666666669" height="41"/>
-                                                <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="years of smoking" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fk-2C-3mW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="41"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="41" id="85v-hq-llc"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                    </textField>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Uok-Cx-GtG">
-                                                <rect key="frame" x="0.0" y="149" width="299.66666666666669" height="41"/>
-                                                <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="whats the price of one cigeratte ?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SOQ-9c-Baq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="41"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="41" id="bmJ-pG-TYo"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                    </textField>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="SOQ-9c-Baq" firstAttribute="leading" secondItem="Uok-Cx-GtG" secondAttribute="leading" id="66E-Od-Qek"/>
-                                                    <constraint firstAttribute="trailing" secondItem="SOQ-9c-Baq" secondAttribute="trailing" id="vGk-pm-a39"/>
-                                                </constraints>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UaJ-gS-xVC">
-                                                <rect key="frame" x="0.0" y="201.00000000000006" width="299.66666666666669" height="41"/>
-                                                <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many cigeratte do you smoke a day ?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PQ2-es-ulc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="41"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="41" id="gS1-L5-71Z"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                    </textField>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IwG-3r-kqx">
+                                        <rect key="frame" x="0.0" y="0.0" width="299.66666666666669" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="UaJ-gS-xVC" secondAttribute="trailing" id="2qv-LZ-Av1"/>
-                                            <constraint firstAttribute="trailing" secondItem="jWh-Wr-MuJ" secondAttribute="trailing" id="7Tk-cx-0Bg"/>
-                                            <constraint firstItem="7s4-YE-WL0" firstAttribute="leading" secondItem="X9P-QO-pGW" secondAttribute="leading" id="7sm-Yh-bfH"/>
-                                            <constraint firstAttribute="trailing" secondItem="uaA-h6-XPq" secondAttribute="trailing" id="KPK-qq-fxb"/>
-                                            <constraint firstItem="UaJ-gS-xVC" firstAttribute="leading" secondItem="X9P-QO-pGW" secondAttribute="leading" id="Klf-kn-ex0"/>
-                                            <constraint firstItem="Uok-Cx-GtG" firstAttribute="leading" secondItem="X9P-QO-pGW" secondAttribute="leading" id="XQk-3G-q52"/>
-                                            <constraint firstAttribute="trailing" secondItem="Uok-Cx-GtG" secondAttribute="trailing" id="dck-de-DTs"/>
-                                            <constraint firstItem="jWh-Wr-MuJ" firstAttribute="leading" secondItem="X9P-QO-pGW" secondAttribute="leading" id="hMv-tb-dfN"/>
-                                            <constraint firstAttribute="trailing" secondItem="7s4-YE-WL0" secondAttribute="trailing" id="m1C-IE-YLl"/>
-                                            <constraint firstItem="uaA-h6-XPq" firstAttribute="leading" secondItem="X9P-QO-pGW" secondAttribute="leading" id="ojL-Fq-GmK"/>
+                                            <constraint firstAttribute="width" constant="299.67000000000002" id="eOR-Xg-Tdf"/>
                                         </constraints>
-                                    </stackView>
+                                        <color key="textColor" red="0.1843137443" green="0.42745098469999998" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" smartDashesType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Whats your age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ct8-EY-la2">
+                                        <rect key="frame" x="0.0" y="54" width="299.66666666666669" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="299.67000000000002" id="Mb7-QP-lFJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="years of smoking" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fk-2C-3mW">
+                                        <rect key="frame" x="0.0" y="108" width="299.66666666666669" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="299.67000000000002" id="Iwu-Gx-9y4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="whats the price of one cigeratte ?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SOQ-9c-Baq">
+                                        <rect key="frame" x="0.0" y="162" width="299.66666666666669" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="299.67000000000002" id="8PI-iG-bnU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many cigeratte do you smoke a day ?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PQ2-es-ulc">
+                                        <rect key="frame" x="0.0" y="216" width="299.66666666666669" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="299.67000000000002" id="SWb-k3-G1i"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="gOT-fI-FJx" firstAttribute="leading" secondItem="qKp-F3-5fv" secondAttribute="leading" id="ACO-se-jhJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="gOT-fI-FJx" secondAttribute="trailing" id="Jl2-pe-E73"/>
-                                    <constraint firstAttribute="trailing" secondItem="X9P-QO-pGW" secondAttribute="trailing" constant="10" id="ZOt-wA-HHe"/>
-                                    <constraint firstAttribute="trailing" secondItem="VvL-J1-XVj" secondAttribute="trailing" constant="20" id="jLr-cK-Rsh"/>
+                                    <constraint firstAttribute="width" constant="299.67000000000002" id="2sP-B2-L8j"/>
+                                    <constraint firstAttribute="height" constant="250" id="f4q-DN-9pm"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="vaT-Lv-L3i">
+                                <rect key="frame" x="64" y="119.00000000000001" width="264" height="131.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="SNOKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP7-D8-ZfV">
+                                        <rect key="frame" x="46.333333333333329" y="0.0" width="171.33333333333337" height="82"/>
+                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="67"/>
+                                        <color key="textColor" red="0.1843137443" green="0.42745098469999998" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get to know you better" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-SZ-DTD">
+                                        <rect key="frame" x="0.0" y="105" width="264" height="26.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" systemColor="systemGray2Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131.33000000000001" id="r6Y-cr-5xQ"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-8Q-O1N">
+                                <rect key="frame" x="47" y="632" width="299.66666666666669" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299.67000000000002" id="H2f-yl-H5P"/>
+                                    <constraint firstAttribute="height" constant="40" id="WpT-hS-dPE"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Submit"/>
+                                <connections>
+                                    <action selector="Submit:" destination="GOJ-uz-Md0" eventType="touchUpInside" id="h0q-sh-Dm0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UcE-RV-7C6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qKp-F3-5fv" firstAttribute="top" secondItem="UcE-RV-7C6" secondAttribute="top" constant="43" id="3ey-1O-Ylr"/>
-                            <constraint firstItem="UcE-RV-7C6" firstAttribute="trailing" secondItem="1qc-KP-h7O" secondAttribute="trailing" constant="60" id="ILz-Ng-t7W"/>
-                            <constraint firstItem="1qc-KP-h7O" firstAttribute="top" secondItem="qKp-F3-5fv" secondAttribute="bottom" constant="106.67" id="LqF-rM-G8c"/>
-                            <constraint firstItem="qKp-F3-5fv" firstAttribute="leading" secondItem="UcE-RV-7C6" secondAttribute="leading" constant="59" id="W5c-lP-cI4"/>
-                            <constraint firstItem="1qc-KP-h7O" firstAttribute="leading" secondItem="UcE-RV-7C6" secondAttribute="leading" constant="60" id="ynS-pF-YMe"/>
+                            <constraint firstItem="UcE-RV-7C6" firstAttribute="trailing" secondItem="vaT-Lv-L3i" secondAttribute="trailing" constant="65" id="2vy-Cr-Rdn"/>
+                            <constraint firstItem="NhS-Kt-yWB" firstAttribute="top" secondItem="vaT-Lv-L3i" secondAttribute="bottom" constant="66.670000000000002" id="8zY-3Q-22j"/>
+                            <constraint firstItem="cVe-8Q-O1N" firstAttribute="top" secondItem="NhS-Kt-yWB" secondAttribute="bottom" constant="65" id="BXM-Pq-wR9"/>
+                            <constraint firstItem="cVe-8Q-O1N" firstAttribute="leading" secondItem="NhS-Kt-yWB" secondAttribute="leading" id="DU9-84-6Zf"/>
+                            <constraint firstItem="UcE-RV-7C6" firstAttribute="trailing" secondItem="cVe-8Q-O1N" secondAttribute="trailing" constant="46.329999999999998" id="IL8-k3-uuc"/>
+                            <constraint firstItem="NhS-Kt-yWB" firstAttribute="leading" secondItem="UcE-RV-7C6" secondAttribute="leading" constant="47" id="J4L-0T-7Qy"/>
+                            <constraint firstItem="cVe-8Q-O1N" firstAttribute="top" secondItem="NhS-Kt-yWB" secondAttribute="bottom" constant="65" id="KwC-kr-YMA"/>
+                            <constraint firstItem="cVe-8Q-O1N" firstAttribute="leading" secondItem="UcE-RV-7C6" secondAttribute="leading" constant="47" id="ZjT-U2-BrJ"/>
+                            <constraint firstItem="vaT-Lv-L3i" firstAttribute="leading" secondItem="UcE-RV-7C6" secondAttribute="leading" constant="64" id="k8U-6S-9Gm"/>
+                            <constraint firstItem="vaT-Lv-L3i" firstAttribute="top" secondItem="UcE-RV-7C6" secondAttribute="top" constant="60" id="pNU-Ci-9pT"/>
+                            <constraint firstItem="UcE-RV-7C6" firstAttribute="trailing" secondItem="NhS-Kt-yWB" secondAttribute="trailing" constant="46.329999999999998" id="vZp-ES-yCY"/>
                         </constraints>
                     </view>
                     <connections>
@@ -196,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqS-3E-Jy7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3998" y="-1113"/>
+            <point key="canvasLocation" x="-3999.2366412213737" y="-1113.3802816901409"/>
         </scene>
         <!--Home-->
         <scene sceneID="Hs2-Nd-g7N">
@@ -1300,24 +1254,24 @@
                                 <rect key="frame" x="26" y="140" width="341" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4,000 Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="859-sP-i2G">
-                                        <rect key="frame" x="126" y="15" width="231" height="23"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$18 saved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="859-sP-i2G">
+                                        <rect key="frame" x="76" y="16" width="231" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ $40 Money Saved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oim-u5-47x">
-                                        <rect key="frame" x="143" y="46" width="177" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="dollarsign" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gCi-pV-CgP">
-                                        <rect key="frame" x="8" y="14.666666666666742" width="41" height="47"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="banknote.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gCi-pV-CgP">
+                                        <rect key="frame" x="8" y="15" width="52" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 goals achieved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oim-u5-47x">
+                                        <rect key="frame" x="130" y="52" width="109" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1843137443" green="0.43137252329999998" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.96862745289999996" green="0.96862745289999996" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1397,7 +1351,6 @@
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="bookmyshow" width="306" height="165"/>
         <image name="clock.fill" catalog="system" width="128" height="123"/>
-        <image name="dollarsign" catalog="system" width="89" height="128"/>
         <image name="flag.fill" catalog="system" width="128" height="121"/>
         <image name="gift.fill" catalog="system" width="128" height="125"/>
         <image name="goibibo" width="310" height="163"/>

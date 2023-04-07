@@ -17,12 +17,16 @@ class OnBoardingViewController: UIViewController {
         let cigprice = PriceOfCig.text
         let cigno = CigNumber.text
         userdata.append(onboarding(userName: username, age: userage, year: userfreq, price: cigprice, cigcount: cigno))
-        let controller = storyboard?.instantiateViewController(withIdentifier: "StartingScreen") as! UITabBarController
+        
+        
+        
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "StartingScreen") as! UITabBarController
         
         controller.modalPresentationStyle = .fullScreen
         controller.modalTransitionStyle = .coverVertical
 
         present(controller,animated: true,completion: nil)
+        
                 
     }
     
