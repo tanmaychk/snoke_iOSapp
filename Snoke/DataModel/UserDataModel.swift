@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Contacts
 
 struct Users{
     var id:UUID
@@ -99,5 +100,11 @@ struct onboarding{
     var cigcount:String?
 }
 
+
 var userdata = [onboarding]()
 
+struct Contacts{
+    var sosContact:CNPhoneNumber?
+}
+
+var contactsArray = [Contacts]()
