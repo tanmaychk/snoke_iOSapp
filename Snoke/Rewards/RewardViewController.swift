@@ -27,6 +27,8 @@ class RewardViewController: UIViewController {
         moneysavedrewards.text=reward[0].money
     }
     
+
+    
     @IBAction func segment2ControlCLick(_ sender: UISegmentedControl){
         switch segment2ControlClick.selectedSegmentIndex{
         case 0:

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		118BF5A52A3A31DF00A5293A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118BF5A42A3A31DF00A5293A /* CustomTableViewCell.swift */; };
 		A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */; };
 		AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */; };
 		AC2A3A1429CEEB10005289C6 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1329CEEB10005289C6 /* calenderViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		118BF5A42A3A31DF00A5293A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		A314B8C629CA26BF00097588 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVideosViewController.swift; sourceTree = "<group>"; };
 		AC2A3A1329CEEB10005289C6 /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				ACF5A6D629B7014F0052132D /* RewardViewController.swift */,
 				AC2A3A1529D155A4005289C6 /* AddNewGoalViewController.swift */,
 				AC2A3A1729D1B01B005289C6 /* PersonalGoalsViewController.swift */,
+				118BF5A42A3A31DF00A5293A /* CustomTableViewCell.swift */,
 			);
 			path = Rewards;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */,
 				ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */,
 				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,
+				118BF5A52A3A31DF00A5293A /* CustomTableViewCell.swift in Sources */,
 				ACF5A6D729B7014F0052132D /* RewardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

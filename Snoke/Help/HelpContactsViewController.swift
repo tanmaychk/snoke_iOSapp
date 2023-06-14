@@ -18,7 +18,7 @@ class HelpContactsViewController: UIViewController {
     }
     
     @IBAction func callEmer1(_ sender: UIButton) {
-        if let url = URL(string: "tel://\(1234567890)"),
+        if let url = URL(string: "tel://\(1-800-784-8669)"),
            UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
@@ -26,7 +26,7 @@ class HelpContactsViewController: UIViewController {
     
     
     @IBAction func callEmer2(_ sender: UIButton) {
-        if let url1 = URL(string: "tel://\(1234567890)"),
+        if let url1 = URL(string: "tel://\(1-800-112-356 )"),
            UIApplication.shared.canOpenURL(url1) {
             UIApplication.shared.open(url1, options: [:], completionHandler: nil)
         }

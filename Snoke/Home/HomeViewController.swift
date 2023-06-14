@@ -83,7 +83,7 @@ class HomeViewController: UIViewController {
         let riskcig = 10*Float(cig ?? 1)
         let formulabase = Float((age ?? 18) + riskyear + riskcig)
         
-        Risk.text = String(Int(ceil((1 - exp(-0.033 * formulabase))*100))) + "%"
+        Risk.text = String(Int(ceil((1 - exp(-0.018 * formulabase))*100))) + "%"
         
 
     }

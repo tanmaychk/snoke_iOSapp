@@ -44,7 +44,12 @@ class addContactsViewController: UIViewController, CNContactPickerDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "allCell") ?? UITableViewCell(style: .subtitle, reuseIdentifier: "allCell")
 
         let contact = contactsArray[indexPath.row]
-        cell.textLabel?.text = contactsArray[1].sosContact
+        if let phoneNumber = contactsArray[1].sosContact {
+            cell.textLabel?.text = phoneNumber.stringValue
+        } else {
+            cell.textLabel?.text = nil
+        }
+
         return cell
         }
     

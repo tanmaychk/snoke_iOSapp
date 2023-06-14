@@ -69,7 +69,7 @@ var goalsarray: [goals] = []
 //let users = [Users(id: UUID(), name: "Akshat", age: 21, progress: 45, moneySaved: 56)]
 
 
-var reward = [rewards(points: "3000 points", money: "$5 Saved"),rewards(points: "5000 points", money: "$10 Saved")]
+var reward = [rewards(points: "18$ saved", money: "0 goals acheived"),rewards(points: "5000 points", money: "$10 Saved")]
 
 var videos = ["https://www.youtube.com/playlist?list=PLsGnys9JD3qnvjQARK99NMKTTTSm3iL6k","https://www.youtube.com/playlist?list=PLsGnys9JD3qkUghU5YQGEfMvQExiNJrnR","https://www.youtube.com/playlist?list=PLsGnys9JD3qkOplRBpFKVIZK0xp_sBUtn","https://www.youtube.com/playlist?list=PLsGnys9JD3qlI8973lOSIrxYkKvKMDAG1","https://www.youtube.com/playlist?list=PLsGnys9JD3qkwijHI-ekxyno2zjAFElOO","https://www.youtube.com/watch?v=FYJJbwG_i8U"]
 
