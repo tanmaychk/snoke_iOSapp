@@ -1,10 +1,3 @@
-//
-//  calenderViewController.swift
-//  Snoke
-//
-//  Created by Akshat Naruka on 25/03/23.
-//
-
 import UIKit
 
 class calenderViewController: UIViewController, UICalendarSelectionMultiDateDelegate{
@@ -32,12 +25,15 @@ class calenderViewController: UIViewController, UICalendarSelectionMultiDateDele
         print(dateComponents)
     }
     
-    func setSelectedDates(
-        _ selectedDates: [DateComponents],
-        animated: Bool
-    ){
-        
-    }
-    
+//    @objc func fetchDatesButtonTapped() {
+//           selectedDates.removeAll()
+//
+//           for calDate in calendarArray {
+//               let components = Calendar.current.dateComponents([.year, .month, .day], from: calDate.date)
+//               selectedDates.append(components)
+//           }
+//
+//           calendarView.reloadDecorations(forDateComponents: selectedDates, animated: false)
+//       }
     
 }

@@ -104,7 +104,21 @@ struct onboarding{
 var userdata = [onboarding]()
 
 struct Contacts{
+    var name:String?
     var sosContact:CNPhoneNumber?
 }
 
 var contactsArray = [Contacts]()
+
+
+struct CalDates {
+    let date: Date
+}
+
+
+let calendarArray: [CalDates] = [
+    CalDates(date: Calendar.current.date(from: DateComponents(year: 2022, month: 10, day: 12))!),
+    CalDates(date: Calendar.current.date(from: DateComponents(year: 2022, month: 10, day: 15))!),
+    CalDates(date: Calendar.current.date(from: DateComponents(year: 2022, month: 10, day: 20))!)
+    // Add more CalDates objects as needed
+]
