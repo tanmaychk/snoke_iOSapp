@@ -20,6 +20,9 @@
 		ACD7CB1529A0D6130092778A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD7CB1329A0D6130092778A /* Main.storyboard */; };
 		ACD7CB1729A0D6140092778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD7CB1629A0D6140092778A /* Assets.xcassets */; };
 		ACD7CB1A29A0D6140092778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD7CB1829A0D6140092778A /* LaunchScreen.storyboard */; };
+		ACE80ADD2A3AFF7500223093 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80ADC2A3AFF7500223093 /* ContactTableViewCell.swift */; };
+		ACE80ADF2A3B059800223093 /* TestCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE80ADE2A3B059800223093 /* TestCalendarViewController.swift */; };
+		ACE80AE12A3B453300223093 /* user.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE80AE02A3B453300223093 /* user.storyboard */; };
 		ACF5A6D129B6EFF00052132D /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D029B6EFF00052132D /* UserDataModel.swift */; };
 		ACF5A6D529B6F4A50052132D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D429B6F4A50052132D /* HomeViewController.swift */; };
 		ACF5A6D729B7014F0052132D /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5A6D629B7014F0052132D /* RewardViewController.swift */; };
@@ -44,6 +47,9 @@
 		ACD7CB1629A0D6140092778A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD7CB1929A0D6140092778A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD7CB1B29A0D6140092778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE80ADC2A3AFF7500223093 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		ACE80ADE2A3B059800223093 /* TestCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCalendarViewController.swift; sourceTree = "<group>"; };
+		ACE80AE02A3B453300223093 /* user.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = user.storyboard; sourceTree = "<group>"; };
 		ACF5A6D029B6EFF00052132D /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		ACF5A6D429B6F4A50052132D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ACF5A6D629B7014F0052132D /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,7 @@
 				AC27290F29C0E4ED002B3891 /* HelpVideosViewController.swift */,
 				ACF5A6E229B99FDA0052132D /* HelpContactsViewController.swift */,
 				AC3A3E8529E3CB6600AFBD1F /* addContactsViewController.swift */,
+				ACE80ADC2A3AFF7500223093 /* ContactTableViewCell.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 			children = (
 				ACF5A6E429B9AD7A0052132D /* StatsViewController.swift */,
 				AC2A3A1329CEEB10005289C6 /* calenderViewController.swift */,
+				ACE80ADE2A3B059800223093 /* TestCalendarViewController.swift */,
 			);
 			path = Stats;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 				AC27291A29C2FB10002B3891 /* DataModel */,
 				ACD7CB1629A0D6140092778A /* Assets.xcassets */,
 				ACD7CB1829A0D6140092778A /* LaunchScreen.storyboard */,
+				ACE80AE02A3B453300223093 /* user.storyboard */,
 				ACD7CB1B29A0D6140092778A /* Info.plist */,
 			);
 			path = Snoke;
@@ -213,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD7CB1A29A0D6140092778A /* LaunchScreen.storyboard in Resources */,
+				ACE80AE12A3B453300223093 /* user.storyboard in Resources */,
 				ACD7CB1729A0D6140092778A /* Assets.xcassets in Resources */,
 				ACD7CB1529A0D6130092778A /* Main.storyboard in Resources */,
 			);
@@ -231,6 +241,7 @@
 				AC2A3A1429CEEB10005289C6 /* calenderViewController.swift in Sources */,
 				AC2A3A1829D1B01B005289C6 /* PersonalGoalsViewController.swift in Sources */,
 				ACF5A6D129B6EFF00052132D /* UserDataModel.swift in Sources */,
+				ACE80ADF2A3B059800223093 /* TestCalendarViewController.swift in Sources */,
 				ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */,
 				ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */,
 				ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */,
@@ -241,6 +252,7 @@
 				ACF5A6E529B9AD7A0052132D /* StatsViewController.swift in Sources */,
 				118BF5A52A3A31DF00A5293A /* CustomTableViewCell.swift in Sources */,
 				ACF5A6D729B7014F0052132D /* RewardViewController.swift in Sources */,
+				ACE80ADD2A3AFF7500223093 /* ContactTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
