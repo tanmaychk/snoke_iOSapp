@@ -96,7 +96,7 @@ struct onboarding{
     var userName:String?
     let age:String?
     var year:String?
-    let price:String?
+    var price:String?
     var cigcount:String?
 }
 
