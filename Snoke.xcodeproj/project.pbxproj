@@ -14,6 +14,9 @@
 		AC2A3A1629D155A4005289C6 /* AddNewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1529D155A4005289C6 /* AddNewGoalViewController.swift */; };
 		AC2A3A1829D1B01B005289C6 /* PersonalGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A3A1729D1B01B005289C6 /* PersonalGoalsViewController.swift */; };
 		AC3A3E8629E3CB6600AFBD1F /* addContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A3E8529E3CB6600AFBD1F /* addContactsViewController.swift */; };
+		AC57E6D12A419524004FB0A7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57E6D02A419524004FB0A7 /* ProfileViewController.swift */; };
+		AC57E6D32A4195DC004FB0A7 /* EditSmokingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57E6D22A4195DC004FB0A7 /* EditSmokingViewController.swift */; };
+		AC57E6D62A419AFD004FB0A7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC57E6D42A419AFD004FB0A7 /* DataModel.xcdatamodeld */; };
 		ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB0D29A0D6130092778A /* AppDelegate.swift */; };
 		ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */; };
 		ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB1129A0D6130092778A /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 		AC2A3A1529D155A4005289C6 /* AddNewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoalViewController.swift; sourceTree = "<group>"; };
 		AC2A3A1729D1B01B005289C6 /* PersonalGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGoalsViewController.swift; sourceTree = "<group>"; };
 		AC3A3E8529E3CB6600AFBD1F /* addContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addContactsViewController.swift; sourceTree = "<group>"; };
+		AC57E6D02A419524004FB0A7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AC57E6D22A4195DC004FB0A7 /* EditSmokingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSmokingViewController.swift; sourceTree = "<group>"; };
+		AC57E6D52A419AFD004FB0A7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		ACD7CB0A29A0D6130092778A /* Snoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD7CB0D29A0D6130092778A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD7CB0F29A0D6130092778A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF5A6D029B6EFF00052132D /* UserDataModel.swift */,
+				AC57E6D42A419AFD004FB0A7 /* DataModel.xcdatamodeld */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -158,6 +165,8 @@
 				ACD7CB1629A0D6140092778A /* Assets.xcassets */,
 				ACD7CB1829A0D6140092778A /* LaunchScreen.storyboard */,
 				ACE80AE02A3B453300223093 /* user.storyboard */,
+				AC57E6D22A4195DC004FB0A7 /* EditSmokingViewController.swift */,
+				AC57E6D02A419524004FB0A7 /* ProfileViewController.swift */,
 				ACD7CB1B29A0D6140092778A /* Info.plist */,
 			);
 			path = Snoke;
@@ -238,13 +247,16 @@
 				AC3A3E8629E3CB6600AFBD1F /* addContactsViewController.swift in Sources */,
 				AC2A3A1629D155A4005289C6 /* AddNewGoalViewController.swift in Sources */,
 				ACF5A6D929B705240052132D /* HelpViewController.swift in Sources */,
+				AC57E6D62A419AFD004FB0A7 /* DataModel.xcdatamodeld in Sources */,
 				AC2A3A1429CEEB10005289C6 /* calenderViewController.swift in Sources */,
 				AC2A3A1829D1B01B005289C6 /* PersonalGoalsViewController.swift in Sources */,
 				ACF5A6D129B6EFF00052132D /* UserDataModel.swift in Sources */,
 				ACE80ADF2A3B059800223093 /* TestCalendarViewController.swift in Sources */,
 				ACD7CB1229A0D6130092778A /* ViewController.swift in Sources */,
 				ACD7CB0E29A0D6130092778A /* AppDelegate.swift in Sources */,
+				AC57E6D12A419524004FB0A7 /* ProfileViewController.swift in Sources */,
 				ACF5A6E329B99FDA0052132D /* HelpContactsViewController.swift in Sources */,
+				AC57E6D32A4195DC004FB0A7 /* EditSmokingViewController.swift in Sources */,
 				AC27291029C0E4ED002B3891 /* HelpVideosViewController.swift in Sources */,
 				ACD7CB1029A0D6130092778A /* SceneDelegate.swift in Sources */,
 				A314B8C729CA26BF00097588 /* OnBoardingViewController.swift in Sources */,
@@ -472,6 +484,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC57E6D42A419AFD004FB0A7 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC57E6D52A419AFD004FB0A7 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = AC57E6D52A419AFD004FB0A7 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ACD7CB0229A0D6130092778A /* Project object */;
 }
